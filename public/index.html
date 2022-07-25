@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+    <form action="#" id="userForm">
+        
+            <label for="username">Text</label>
+            <textarea name="" class="textArea textField" cols="" rows="" form="userForm" onfocus="this.value=''"></textarea>
+        </div>
+        <div>
+            <label for="username">Word to scramble</label>
+            <input type="text" class="scrambleWord" placeholder="Enter the word you want to be scrambled" onfocus="this.value=''">
+        </div>
+
+        <div>
+            <label for="username">Word replacer</label>
+            <input type="text" class="replaceWord" placeholder="Enter the word replacer" onfocus="this.value=''">
+        </div>
+
+        <button class="redactBtn" type="submit" onclick="redacTr()">Redact Now</button>
+       
+        <div class="result">
+            <label for="result">Result</label>
+            <textarea name="" class="textArea resultArea" cols="" rows="" form="userForm" onfocus="this.value=''">
+                
+            </textarea>
+        </div>
+    </form>
+</main>
+</body>
+
+<script src="index.js"></script>
+</html>
