@@ -52,19 +52,6 @@ function redacTr(userInput, wordToScramble, replacerWord){
  }
  
  redacTr()
- 
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
